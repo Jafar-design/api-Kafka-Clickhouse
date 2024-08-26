@@ -1,0 +1,2 @@
+# Recreatable Simple Kafka project
+
