@@ -2,9 +2,10 @@ import requests
 from confluent_kafka import Producer
 import json
 import time
+import os
 
-# API and Kafka configurations
-api_url = ''  # Replace with your API endpoint
+api_url = os.getenv('API_URL')
+# api_url = 'https://api.polygon.io/v2/aggs/ticker/C:EURUSD/range/1/day/2023-01-09/2023-01-09?apiKey=iqNXjwBTJ9rmQITcrOYM2aMdWITfeiqq'  # Replace with your API endpoint
 kafka_topic = 'demo1'
 kafka_bootstrap_servers = 'localhost:9092'  # Replace with your Kafka broker
 
