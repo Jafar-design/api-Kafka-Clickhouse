@@ -16,7 +16,7 @@ Before running this project, ensure you have the following installed:
 - **Docker & Docker Compose**
 - **Python 3.x**
 - **Apache Kafka**
-- **ClickHouse Database**
+- **ClickHouse Database created locally**
 
 ## 🛠️ Setup Instructions
 
